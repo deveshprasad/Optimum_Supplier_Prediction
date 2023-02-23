@@ -1,6 +1,6 @@
-Installation & Running
+# Installation & Running
 
-- Download Zip Folder BeePy_Python (Unzip)
+- Download Zip Folder Py_Files (Unzip)
 
 - Files Structure
 
@@ -51,6 +51,28 @@ Installation & Running
         - Step 5 includes all the previous steps imported
         - Individual steps can also run individually
 
-- Group BeePy
+# Brief: 
+The Acme Corporation must complete a task every day; these can be e.g. deliveries of goods,
+project management tasks, or recruitment of staff. For completing each task, Acme must choose one
+out of sixty-four (64) suppliers that provide the resources required to complete the task. The final cost
+of the task depends on how effective the chosen supplier is at performing the particular task.
+Unfortunately, estimating this cost in advance requires significant resources. Acme has hired your
+Business Analytics firm to develop a machine learning (ML) approach for selecting suppliers given a
+new task.
 
+To complete your assignment, Acme has provided you with three datasets:
 
+ ‘tasks.xlsx’: an Excel file that contains one row per task and one column per task feature
+(TF1, TF2, TF3, …, T116). Each task is uniquely identified by a Task ID (a date, eg., ‘2019 05
+30’).
+
+ ‘suppliers.csv’: A CSV file that contains one row per supplier and one column per supplier
+feature (SF1, SF2, …, SF18). Each supplier is uniquely identified by a Supplier ID given in the
+first column of the file (S1, …, S64).
+
+ ‘costs.csv’: a CSV file that contains data collected and/or estimated by Acme about the cost
+of a task when performed by each supplier. Each row gives the cost value (in millions of dollars,
+M$) of one task performed by one supplier.
+
+Your goal is to provide Acme with an ML model that, given the task features of a task, selects one
+supplier among the 64 suppliers available. 
